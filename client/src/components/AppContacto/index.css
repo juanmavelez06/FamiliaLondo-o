@@ -1,0 +1,56 @@
+.container_contact {
+  font-family: "Times New Roman", Times, serif;
+  height: 700px;
+  max-width: 100%;
+}
+
+.box_contact {
+  color: rgb(3, 3, 3);
+  margin-top: 30px;
+  height: 100%;
+  border: none;
+  width: 960px;
+  margin-left: 150px;
+}
+.box_contact input {
+  display: flex;
+  background-color: transparent;
+  flex-wrap: wrap;
+  border: none;
+  border-bottom:3px solid #100f0f;
+  width: 95%;
+  margin: 15px 20px;
+  padding: 10px 15px;
+}
+.box_contact label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.box_contact h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.Mensaje {
+  padding: 10px 15px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:3px solid #100f0f;
+  border-radius: 5px;
+  color: #100f0f;
+ 
+}
+
+.submit {
+  background-color: aqua;
+  border-radius: 10px;
+  width: 630px;
+  margin-top: 24%;
+  margin-left: 18%;
+}

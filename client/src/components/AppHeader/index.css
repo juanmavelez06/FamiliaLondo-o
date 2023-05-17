@@ -1,0 +1,36 @@
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  top: -40px;
+  left: 220px;
+  z-index: 100;
+  transition: 0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+  padding: 12px 5px;
+}
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 600;
+  color: #ffffff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 20px;
+}
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  opacity: 1;
+}
+nav.navbar.scrolled span {
+  display: none;
+}
+span {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  margin: 20px;
+  left: -320px;
+  top: -45px;
+  color: rgb(255, 255, 255);
+}
